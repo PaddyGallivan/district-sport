@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riverside District — School Sport Portal</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0f4f8; color: #0f172a; min-height: 100vh; }
+  .site-header {
+    background: linear-gradient(135deg, #0d1b3e 0%, #1a3a6e 60%, #1a56db 100%);
+    color: #fff; padding: 52px 24px 60px; text-align: center; position: relative; overflow: hidden;
+  }
+  .site-header::after {
+    content: ''; position: absolute; bottom: -1px; left: 0; right: 0;
+    height: 32px; background: #f0f4f8; clip-path: ellipse(55% 100% at 50% 100%);
+  }
+  .header-badge {
+    display: inline-block; background: rgba(245,158,11,.15); border: 1px solid rgba(245,158,11,.4);
+    color: #f59e0b; font-size: 11px; font-weight: 700; letter-spacing: .08em;
+    text-transform: uppercase; padding: 4px 12px; border-radius: 20px; margin-bottom: 14px;
+  }
+  .site-header h1 { font-size: clamp(24px, 5vw, 38px); font-weight: 900; letter-spacing: -.02em; margin-bottom: 8px; }
+  .site-header p { font-size: 14px; opacity: .72; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+  .container { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+  .coming-soon {
+    background: #fff; border-radius: 20px; padding: 60px 40px; text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,.08); margin: 40px auto; max-width: 560px;
+  }
+  .cs-icon { font-size: 56px; margin-bottom: 20px; }
+  .cs-title { font-size: 26px; font-weight: 900; margin-bottom: 10px; }
+  .cs-sub { font-size: 15px; color: #64748b; line-height: 1.7; margin-bottom: 28px; }
+  .cs-badge {
+    display: inline-block; background: #eff6ff; border: 1px solid #bfdbfe;
+    color: #1d4ed8; font-size: 12px; font-weight: 700; padding: 6px 16px;
+    border-radius: 20px; margin-bottom: 28px;
+  }
+  .btn {
+    display: inline-block; background: #1a56db; color: #fff; padding: 13px 28px;
+    border-radius: 10px; font-weight: 700; font-size: 14px; text-decoration: none;
+    transition: background .15s;
+  }
+  .btn:hover { background: #1648c0; }
+  .nav-links { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 32px; }
+  .nav-link {
+    background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;
+    padding: 8px 16px; font-size: 12px; font-weight: 600; color: #475569;
+    text-decoration: none; transition: all .15s;
+  }
+  .nav-link:hover { border-color: #1a56db; color: #1a56db; }
+  footer {
+    text-align: center; padding: 30px 20px; font-size: 12px; color: #94a3b8; margin-top: 20px;
+  }
+  footer a { color: #1a56db; text-decoration: none; }
+</style>
+</head>
+<body>
+<div style="background:#f59e0b;color:#0d1b3e;text-align:center;padding:10px 16px;font-size:13px;font-weight:700;">
+  📍 DEMO PAGE — fictional data. Real district pages are unlisted, visible only to logged-in coordinators. <a href="/" style="color:#0d1b3e;text-decoration:underline;">← Back to portal</a>
+</div>
+<div class="site-header">
+  <div class="header-badge">📍 Eastbay Division</div>
+  <h1>Riverside District</h1>
+  <p>School sport fixtures, results and information for schools across the Riverside District.</p>
+</div>
+<div class="container">
+  <div class="coming-soon">
+    <div class="cs-icon">🏗️</div>
+    <div class="cs-badge">COMING SOON — 2026</div>
+    <div class="cs-title">This page is being set up</div>
+    <div class="cs-sub">
+      The Riverside District sport portal is coming soon — with live carnival results, team selections, fixtures and school pages for every school in the district.<br><br>
+      Powered by <strong>SportCarnival</strong> &amp; <strong>SchoolSportPortal</strong>.
+    </div>
+    <a href="mailto:paddy.gallivan@education.vic.gov.au" class="btn">Get Early Access →</a>
+  </div>
+  <div class="nav-links">
+    <a href="https://schoolsportportal.com.au" class="nav-link">🏛️ School Sport Portal</a>
+    <a href="https://schoolsportportal.com.au/demo-division" class="nav-link">🏆 Eastbay Division</a>
+    <a href="https://sportcarnival.com.au" class="nav-link">🏃 SportCarnival</a>
+  </div>
+</div>
+<footer>
+  schoolsportportal.com.au/altonadistrict · Eastbay Division · Western Metropolitan Region<br>
+  <a href="https://sportcarnival.com.au">sportcarnival.com.au</a>
+</footer>
+</body>
+</html>
